@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-image: url(henning-witzel-ukvgqriuOgo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+
+}
+
+/* Default styles (for mobile first) */  
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+/* Styles for tablets */  
+@media (min-width: 600px) {  
+    body {  
+        font-size: 18px;  
+    }  
+}  
+
+/* Styles for desktops */  
+@media (min-width: 1024px) {  
+    body {  
+        font-size: 20px;  
+    }  
+}
