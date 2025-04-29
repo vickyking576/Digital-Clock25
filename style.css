@@ -45,3 +45,19 @@ body {
         font-size: 20px;  
     }  
 }
+/* Ensure the clock scales properly on smaller screens */
+#clock {
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    #clock {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #clock {
+        font-size: 3rem;
+    }
+}
